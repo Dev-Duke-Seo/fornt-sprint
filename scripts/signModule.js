@@ -110,7 +110,7 @@ const defaultSignModule = {
   checkToken: async function () {
     const accessToken = localStorage.getItem('accessToken');
     if (accessToken) {
-      location.href = '../temp-success.html';
+      location.href = '../folder.html';
     }
   }
 }
